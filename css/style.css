@@ -48,9 +48,9 @@ nav button:hover {
 
 
 
-.search-wrap { max-width: 1000px; margin: 0 auto; padding: 0 1rem; position:  relative; display: flex;  align-items: center;}
-.search-wrap img {  position: absolute; width: 24px; top : 20px ; left : 10px}
-.search-wrap input {border-radius: 12px; max-width: 900px; padding : 20px 30px ;
+.search-wrap { display: grid; grid-template-columns: 8fr 1fr; align-items: center;  max-width: 1000px; margin: 0 auto; padding: 0 1rem; position:  relative; }
+.search-wrap img {  position: absolute; width: 24px; top : 20px ; left : 20px}
+.search-wrap input { width: 100%; border-radius: 12px;  padding : 20px 30px ;
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); 
    border: none !important ;
    border-color: #fff;
@@ -90,6 +90,7 @@ nav button:hover {
    margin : 0 auto;
    display: grid ; 
    grid-template-columns: repeat(4,1fr) ;
+   padding: 0 15px;
    grid-gap: 50px;
    
 }
